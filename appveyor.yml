@@ -12,29 +12,9 @@ clone_folder: c:/projects/openvsp
 
 environment:
   matrix:
-  - PYTHON: C:/Python27
-    GENERATOR: Visual Studio 12 2013
-    PYTHON_VERSION: 27
-    ARCH: win32
-  - PYTHON: C:/Python35
-    GENERATOR: Visual Studio 12 2013
-    PYTHON_VERSION: 35
-    ARCH: win32
-  - PYTHON: C:/Python36
-    GENERATOR: Visual Studio 12 2013
-    PYTHON_VERSION: 36
-    ARCH: win32
-  - PYTHON: C:/Python27-x64
+  - PYTHON: C:/Python38-x64
     GENERATOR: Visual Studio 12 2013 Win64
-    PYTHON_VERSION: 27
-    ARCH: win64
-  - PYTHON: C:/Python35-x64
-    GENERATOR: Visual Studio 12 2013 Win64
-    PYTHON_VERSION: 35
-    ARCH: win64
-  - PYTHON: C:/Python36-x64
-    GENERATOR: Visual Studio 12 2013 Win64
-    PYTHON_VERSION: 36
+    PYTHON_VERSION: 38
     ARCH: win64
 
 install:
